@@ -1,0 +1,185 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "TechCorp",
+      "location": "New York, NY",
+      "ctc": "80,000 - 100,000 USD per year",
+      "hrContact": "hr@techcorp.com",
+      "description": "We are looking for a skilled frontend developer to join our growing tech team. This role will be responsible for building responsive and engaging web applications.",
+      "requirements": [
+        "3+ years of experience in frontend development",
+        "Proficiency in HTML, CSS, JavaScript, and React.js",
+        "Experience with modern JavaScript frameworks and tools",
+        "Strong problem-solving skills and ability to work independently"
+      ],
+      "responsibilities": "As a Frontend Developer, you will work closely with the UI/UX team to implement high-quality web interfaces and collaborate with backend developers to integrate APIs.",
+      "benefits": "Health insurance, 401k match, remote work options, and paid time off.",
+      "applyLink": "https://techcorp.jobs/apply/frontend"
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "company": "DataWorks",
+      "location": "San Francisco, CA",
+      "ctc": "90,000 - 120,000 USD per year",
+      "hrContact": "hr@dataworks.com",
+      "description": "Seeking an experienced backend developer to join our dynamic team. You will be building scalable backend services using modern technologies.",
+      "requirements": [
+        "5+ years of experience in backend development",
+        "Proficiency in Node.js, Express, and MongoDB",
+        "Experience with cloud services (AWS, Azure, or GCP)",
+        "Strong understanding of RESTful APIs and microservices architecture"
+      ],
+      "responsibilities": "You will be responsible for designing and implementing robust APIs, optimizing database interactions, and ensuring system reliability and security.",
+      "benefits": "Stock options, flexible working hours, and an annual learning stipend.",
+      "applyLink": "https://dataworks.jobs/apply/backend"
+    },
+    {
+      "id": 3,
+      "title": "CHIEF TECHNOLOGY OFFICER",
+      "company": "SAF TECH",
+      "location": "BANGALORE",
+      "ctc": "1.5cr to 2cr per year",
+      "hrContact": "hr@saftech.com",
+      "description": "Seeking an experienced CTO to join our dynamic team. You will beleading the team of backend services using modern technologies.",
+      "requirements": [
+        "5+ years of experience as CTO",
+        "Proficiency in Node.js, Express, and MongoDB",
+        "PROBLEM SOLVING TECHNIQUE",
+        "Strong understanding of RESTful APIs and microservices architecture"
+      ],
+      "responsibilities": "You will be responsible for leading and managing the designing and implementing team, optimizing database interactions, and ensuring system reliability and security.",
+      "benefits": "health insurance, flexible working hours, children's education from the company and an annual bonus.",
+      "applyLink": "https://saftech.jobs/apply/CTO"
+    },
+    {
+      "id": 4,
+      "title": "CHIEF MANAGING OFFICER",
+      "company": "SAF TECH",
+      "location": "BANGALORE",
+      "ctc": "1cr to 1.5cr per year",
+      "hrContact": "hr@saftech.com",
+      "description": "Seeking an experienced CMO to join our dynamic team. for the company's growth and to take business to greater heights.",
+      "requirements": [
+        "5+ years of experience as CMO",
+        "Proficiency in Leadership,Effective control, Good communication, Dynamic thinking",
+        "Understanding of the company's vision",
+        "Capable of Working in all kinds of work Environment"
+      ],
+      "responsibilities": "You will be responsible for leading and managing the team, and ensuring Comapny reliability and security.",
+      "benefits": "health insurance, flexible working hours, children's education from the company and an annual bonus.",
+      "applyLink": "https://saftech.jobs/apply/CMO"
+    },
+    {
+      "id": 5,
+      "title": "CHIEF OPERATING OFFICER",
+      "company": "SAF TECH",
+      "location": "BANGALORE",
+      "ctc": "1.5cr to 2cr per year",
+      "hrContact": "hr@saftech.com",
+      "description": "Seeking an experienced COO to join our dynamic team. You will beleading the team of services using modern technologies.",
+      "requirements": [
+        "5+ years of experience as COO",
+        "Proficiency in Managing and Operating skills",
+        "PROBLEM SOLVING Ability",
+        "Strong understanding of Business and its working"
+      ],
+      "responsibilities": "You will be responsible for operating the  over all activities of business, and security.",
+      "benefits": "health insurance, flexible working hours, children's education from the company and an annual bonus.",
+      "applyLink": "https://saftech.jobs/apply/COO"
+    },
+    {
+      "id": 6,
+      "title": "MANAGER",
+      "company": "SAF TECH",
+      "location": "BANGALORE",
+      "ctc": "50k to 1cr per year",
+      "hrContact": "hr@saftech.com",
+      "description": "Seeking an experienced manager to join our dynamic team. You will be leading the team of operation using modern technologies.",
+      "requirements": [
+        "5+ years of experience as MANAGER",
+        "Proficiency in Managing and Operating skills",
+        "PROBLEM SOLVING Ability",
+        "Strong understanding of Business and its working"
+      ],
+      "responsibilities": "You will be responsible for operating the  over all activities of business, and security.",
+      "benefits": "health insurance, flexible working hours, children's education from the company and an annual bonus.",
+      "applyLink": "https://saftech.jobs/apply/MANAGER"
+    },
+    {
+      "id": 7,
+      "title": "HR MANAGER",
+      "company": "SAF TECH",
+      "location": "BANGALORE",
+      "ctc": "1.5cr to 2cr per year",
+      "hrContact": "hr@saftech.com",
+      "description": "Seeking an experienced HR to join our dynamic team. You will recruiting the people for our compnay.",
+      "requirements": [
+        "5+ years of experience as HR",
+        "Proficiency in recruiting skills",
+        "PROBLEM SOLVING Ability",
+        "Strong understanding of people and job skills"
+      ],
+      "responsibilities": "You will be responsible for recruiting employee for the  over all activities of business.",
+      "benefits": "health insurance, flexible working hours, children's education from the company and an annual bonus.",
+      "applyLink": "https://saftech.jobs/apply/HR"
+    },
+    {
+      "id": 8,
+      "title": " MARKETING MANAGER",
+      "company": "SAF TECH",
+      "location": "BANGALORE",
+      "ctc": "1.5cr to 2cr per year",
+      "hrContact": "hr@saftech.com",
+      "description": "Seeking an experienced Marketing officer to join our dynamic team. You will be marketing products for our compnay.",
+      "requirements": [
+        "5+ years of experience as MARKETING MANAGER",
+        "Proficiency in Marketing skills",
+        "PROBLEM SOLVING Ability",
+        "Strong understanding of people and their way of customer attraction"
+      ],
+      "responsibilities": "You will be responsible for marketing for the  over all activities of business.",
+      "benefits": "health insurance, flexible working hours, children's education from the company and an annual bonus.",
+      "applyLink": "https://saftech.jobs/apply/MM"
+    },
+    {
+      "id": 9,
+      "title": "ADVERTISEMENT MANAGER",
+      "company": "SAF TECH",
+      "location": "BANGALORE",
+      "ctc": "1.5cr to 2cr per year",
+      "hrContact": "hr@saftech.com",
+      "description": "Seeking an experienced AM to join our dynamic team. You will be Avertising our products.",
+      "requirements": [
+        "5+ years of experience as AM",
+        "Proficiency in AVERSTISING skills",
+        "PROBLEM SOLVING Ability",
+        "Strong understanding of people and MARKET"
+      ],
+      "responsibilities": "You will be responsible for AVERTISING for the  over all Products of business.",
+      "benefits": "health insurance, flexible working hours, children's education from the company and an annual bonus.",
+      "applyLink": "https://saftech.jobs/apply/AM"
+    },
+    {
+      "id": 10,
+      "title": "EXECUTIVE DIRECTOR",
+      "company": "SAF TECH",
+      "location": "BANGALORE",
+      "ctc": "1.5cr to 2cr per year",
+      "hrContact": "hr@saftech.com",
+      "description": "Seeking an experienced ED to join our dynamic team. You will be incharge of the executive dept of our company.",
+      "requirements": [
+        "5+ years of experience as ED",
+        "Proficiency in EXECUTION skills",
+        "PROBLEM SOLVING Ability",
+        "Strong understanding of EXECUTIONAL Skills"
+      ],
+      "responsibilities": "You will be responsible for EXECUTION for the  over all activities of business.",
+      "benefits": "health insurance, flexible working hours, children's education from the company and an annual bonus.",
+      "applyLink": "https://saftech.jobs/apply/ED"
+    }
+  ]
+  
+}

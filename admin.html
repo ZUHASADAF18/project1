@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Post a Job</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel - Post a New Job</h1>
+        <!-- Dashboard link to go back to the job listings page -->
+        <a href="index.html" class="dashboard-link">Dashboard</a>
+    </header>
+
+    <section id="job-form">
+        <h2>Add New Job</h2>
+        <form id="jobSubmissionForm" onsubmit="addJob(event)">
+            <input type="text" id="jobTitle" placeholder="Job Title" required><br>
+            <input type="text" id="companyName" placeholder="Company Name" required><br>
+            <input type="text" id="location" placeholder="Location" required><br>
+            <input type="text" id="ctc" placeholder="CTC (Salary)" required><br>
+            <input type="text" id="hrContact" placeholder="HR Contact" required><br>
+            <textarea id="jobDescription" placeholder="Job Description" required></textarea><br>
+            <textarea id="jobRequirements" placeholder="Job Requirements" required></textarea><br>
+            <textarea id="responsibilities" placeholder="Roles and Responsibilities" required></textarea><br>
+            <textarea id="benefits" placeholder="Benefits" required></textarea><br>
+            <input type="url" id="applyLink" placeholder="Apply Link" required><br>
+            <button type="submit">Submit Job</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

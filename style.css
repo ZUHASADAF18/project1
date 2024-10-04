@@ -1,0 +1,277 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: color-mix(in srgb, green 60%, aqua 35%);
+    color: black;
+    padding: 20px;
+}
+
+/* Header styling (applies to all pages) */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 42px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+header h2 {
+    font-size: 28px;
+    color: black;
+    font-weight: 300;
+}
+
+header input {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 50%;
+    border: none;
+    margin-top: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+header input:focus {
+    outline: none;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+header a:hover {
+    background-color: blue;
+}
+
+/* Job Listings Page (index.html) */
+#job-listings {
+    margin-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#job-listings h2 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+ul#jobList {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#jobList li {
+    background-color: #ff5563;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+ul#jobList li:hover {
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+ul#jobList li strong {
+    font-size: 22px;
+    color: black;
+}
+
+ul#jobList li em {
+    font-size: 18px;
+    color: black;
+    display: block;
+    margin-top: 5px;
+}
+
+ul#jobList li p {
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+}
+
+/* Job Details Page (job.html) */
+#job-details {
+    background-color:#ff5563;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#job-details p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+#job-details h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: black;
+    border-bottom: 2px solid #1f4037;
+    padding-bottom: 10px;
+}
+
+#jobRequirements, #responsibilities, #benefits {
+    list-style-type: disc;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+#applyLink {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: blue;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#applyLink:hover {
+    background-color: yellow;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: black;
+}
+
+#job-details ul {
+    padding-left: 20px;
+}
+
+#job-details ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* Admin Page (admin.html) */
+#job-form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ff5563;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#job-form h2 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#job-form input, #job-form textarea, #job-form button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+#job-form input:focus, #job-form textarea:focus {
+    outline: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+#job-form button {
+    background-color: blue;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#job-form button:hover {
+    background-color: yellow;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+#job-form textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    header input {
+        width: 80%;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    #job-form {
+        padding: 20px;
+    }
+
+    #job-details {
+        padding: 20px;
+    }
+
+    #job-details p, #job-form input, #job-form textarea {
+        font-size: 16px;
+    }
+
+    #job-details h3, #job-form h2 {
+        font-size: 22px;
+    }
+}
+/* Dashboard link styling */
+.dashboard-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-link:hover {
+    background-color: darkgreen;
+}

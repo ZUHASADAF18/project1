@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="jobTitle">Job Title</h1>
+        <h2 id="companyName">Company</h2>
+    </header>
+
+    <section id="job-details">
+        <p><strong>Location:</strong> <span id="location"></span></p>
+        <p><strong>CTC (Salary):</strong> <span id="ctc"></span></p>
+        <p><strong>HR Contact:</strong> <span id="hrContact"></span></p>
+        
+        <h3>Job Description</h3>
+        <p id="jobDescription"></p>
+        
+        <h3>Job Requirements</h3>
+        <ul id="jobRequirements"></ul>
+        
+        <h3>Roles and Responsibilities</h3>
+        <p id="responsibilities"></p>
+
+        <h3>Benefits</h3>
+        <p id="benefits"></p>
+
+        <a href="#" id="applyLink" target="_blank">Apply for this Job</a>
+        <br><br>
+        <a href="index.html">Back to Job Listings</a>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const job = JSON.parse(localStorage.getItem('selectedJob'));
+            
+            if (job) {
+                document.getElementById('jobTitle').textContent = job.title;
+                document.getElementById('companyName').textContent = job.company;
+                document.getElementById('location').textContent = job.location;
+                document.getElementById('ctc').textContent = job.ctc;
+                document.getElementById('hrContact').textContent = job.hrContact;
+                document.getElementById('jobDescription').textContent = job.description;
+
+                const requirementsList = document.getElementById('jobRequirements');
+                job.requirements.forEach(req => {
+                    const li = document.createElement('li');
+                    li.textContent = req;
+                    requirementsList.appendChild(li);
+                });
+
+                document.getElementById('responsibilities').textContent = job.responsibilities;
+                document.getElementById('benefits').textContent = job.benefits;
+                document.getElementById('applyLink').href = job.applyLink;
+            }
+        });
+    </script>
+</body>
+</html>
